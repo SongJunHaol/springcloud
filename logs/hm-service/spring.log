@@ -1,0 +1,17 @@
+15:50:55:313  INFO 1260 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 17.0.9 on CHCSWS-M70CHG6T with PID 1260 (F:\dev\git\hmall\hmall\hm-service\target\classes started by Bryant in F:\dev\git\hmall\hmall)
+15:50:55:315 DEBUG 1260 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:50:55:316  INFO 1260 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
+15:50:57:072  INFO 1260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:50:57:075  INFO 1260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:50:57:121  INFO 1260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+15:50:58:055  INFO 1260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+15:50:58:068  INFO 1260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:50:58:069  INFO 1260 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:50:58:197  INFO 1260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:50:58:197  INFO 1260 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2839 ms
+15:50:59:685  INFO 1260 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:51:00:070  INFO 1260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+15:51:00:071  INFO 1260 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:51:00:073  INFO 1260 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:51:00:097  INFO 1260 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:51:00:228  INFO 1260 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 5.386 seconds (JVM running for 7.397)
