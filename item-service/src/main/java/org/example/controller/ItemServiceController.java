@@ -8,14 +8,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.example.clent.ItemClent;
 import org.example.domain.R;
 import org.example.dto.ItemDTO;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -32,6 +31,7 @@ public class ItemServiceController {
 //    @Autowired
     public final RestTemplate restTemplate;
     public final DiscoveryClient discoveryClient;
+//    private final ItemClent itemClent;
 
     @GetMapping("/getUser")
     @ApiOperation("getUser")
@@ -61,6 +61,7 @@ public class ItemServiceController {
         }
         ItemDTO itemDTOList = exchange.getBody();
 
+//        ItemDTO itemDTO = itemClent.querItemByIds("317578");
         Router router = new Router();
         router.setName("Admin");
         router.setJiage("10");
